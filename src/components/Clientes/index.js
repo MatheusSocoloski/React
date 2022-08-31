@@ -21,6 +21,8 @@ import {
   ClientesWrapper,
   ClientesLogo,
   CardClientes,
+  ClientesLogoDalba, 
+  ClientesLogoRevo
 } from "./ClientesElements";
 import { H1 } from "../Home/HomeElements";
 
@@ -140,10 +142,10 @@ const Clientes = () => {
              </SubTextClientes>
         </CardClientes>
         <CardClientes>
-            <ClientesLogo 
+            <ClientesLogoRevo 
             src={Revo} 
             aria-label="Revo">
-              </ClientesLogo>
+              </ClientesLogoRevo>
               <TextClientes>
               REVO
              </TextClientes>
@@ -152,10 +154,10 @@ const Clientes = () => {
              </SubTextClientes>
         </CardClientes>
         <CardClientes>
-            <ClientesLogo 
+            <ClientesLogoDalba 
             src={Dalba} 
             aria-label="Dalba">
-              </ClientesLogo>
+              </ClientesLogoDalba>
               <TextClientes>
               DALBA
              </TextClientes>

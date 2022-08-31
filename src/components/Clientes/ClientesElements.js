@@ -64,10 +64,35 @@ export const Linha = styled.h1`
 `;
 export const ClientesLogo = styled.img`
   max-height: 67%;
+  display: flex;
+  align-items: center;
+  transform: scale(1, 1);
+  padding: 10px;
+  
+  @media screen and (max-width: 650px) {
+    transform: scale(0.5, 0.5);
+  }
+`;
+export const ClientesLogoDalba = styled.img`
+  max-height: 67%;
+  display: flex;
+  align-items: center;
+  margin-top: 19px;
   justify-self: center;
   align-self: center;
   transform: scale(1, 1);
   padding: 10px;
+  
+  @media screen and (max-width: 650px) {
+    transform: scale(0.5, 0.5);
+  }
+`;
+export const ClientesLogoRevo = styled.img`
+  max-height: 50%;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  transform: scale(1, 1);
   
   @media screen and (max-width: 650px) {
     transform: scale(0.5, 0.5);
